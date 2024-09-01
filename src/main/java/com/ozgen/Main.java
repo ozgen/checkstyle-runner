@@ -12,6 +12,7 @@ public class Main {
             return;
         }
         try {
+            //this is test changes
             assert configURL != null;
             String[] checkstyleArgs = new String[]{
                     "-c", configURL.toString(),
@@ -22,5 +23,9 @@ public class Main {
             System.err.println("Error running Checkstyle: " + e.getMessage());
             e.printStackTrace();
         }
+    }
+
+    private void test(){
+        System.out.println("test message");
     }
 }
