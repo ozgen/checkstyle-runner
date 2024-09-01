@@ -24,4 +24,8 @@ public class Main {
             e.printStackTrace();
         }
     }
+
+    private void test(){
+        System.out.println("test message");
+    }
 }
